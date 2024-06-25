@@ -4,6 +4,8 @@ SCRIPT_NAME=$(basename "$0")
 
 dhcpcd
 
+sleep 20
+
 # Function to update the install script
 update_install_script() {
   wget -O /root/installer_web.sh "http://112c.co.uk/ctechtools/installer.sh"
